@@ -16,7 +16,6 @@
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		4BCB40053327C9BC5C64C8FF /* Pods_Knock_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B397470AF1BFA7299DF099E2 /* Pods_Knock_Talk.framework */; };
-		FA3E99B825C848DD00CA1911 /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E99B725C848DD00CA1911 /* PopUpWindow.swift */; };
 		FA3E99BE25C8602D00CA1911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3E99BD25C8602D00CA1911 /* Main.storyboard */; };
 		FA62A6E025C80FB6002B6B02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA62A6DF25C80FB6002B6B02 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		0FF30F32F89243C2BE478EE6 /* Pods-Knock-Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knock-Talk.debug.xcconfig"; path = "Target Support Files/Pods-Knock-Talk/Pods-Knock-Talk.debug.xcconfig"; sourceTree = "<group>"; };
 		B397470AF1BFA7299DF099E2 /* Pods_Knock_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knock_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBB2157158CD2DC83E6E52 /* Pods-Knock-Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knock-Talk.release.xcconfig"; path = "Target Support Files/Pods-Knock-Talk/Pods-Knock-Talk.release.xcconfig"; sourceTree = "<group>"; };
-		FA3E99B725C848DD00CA1911 /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
 		FA3E99BD25C8602D00CA1911 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FA62A6DF25C80FB6002B6B02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +99,6 @@
 				0B62818C235DF00B00E35CAF /* RegisterViewController.swift */,
 				0B62818E235DF01000E35CAF /* LoginViewController.swift */,
 				0B628190235DF01B00E35CAF /* ChatViewController.swift */,
-				FA3E99B725C848DD00CA1911 /* PopUpWindow.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -251,7 +248,6 @@
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
-				FA3E99B825C848DD00CA1911 /* PopUpWindow.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

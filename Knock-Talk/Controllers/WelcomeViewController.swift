@@ -18,12 +18,11 @@ class WelcomeViewController: UIViewController {
 
         titleLabel.text = "✏️ KnockTalk"
  /*
+//Displays the letters of the titleLabel.text one by one
+         
         var charIndex = 0.0
         let titleText = "✏️ KnockTalk"
         for letter in titleText {
-            print("-")
-            print(0.1 * charIndex)
-            print(letter)
             Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { (timer) in
                 self.titleLabel.text?.append(letter)
             }
