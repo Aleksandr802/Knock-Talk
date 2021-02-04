@@ -16,12 +16,12 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        titleLabel.text = "✏️ KnockTalk"
+        titleLabel.text = K.appName
  /*
 //Displays the letters of the titleLabel.text one by one
          
         var charIndex = 0.0
-        let titleText = "✏️ KnockTalk"
+        let titleText = K.appName
         for letter in titleText {
             Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { (timer) in
                 self.titleLabel.text?.append(letter)

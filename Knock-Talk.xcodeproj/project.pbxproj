@@ -16,6 +16,10 @@
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		4BCB40053327C9BC5C64C8FF /* Pods_Knock_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B397470AF1BFA7299DF099E2 /* Pods_Knock_Talk.framework */; };
+		FA334EE325CAD072004E0A7B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA334EE225CAD072004E0A7B /* Constants.swift */; };
+		FA334EE725CAE09C004E0A7B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA334EE625CAE09C004E0A7B /* Message.swift */; };
+		FA334EEB25CAF5C9004E0A7B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA334EE925CAF5C9004E0A7B /* MessageCell.swift */; };
+		FA334EEC25CAF5C9004E0A7B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA334EEA25CAF5C9004E0A7B /* MessageCell.xib */; };
 		FA3E99BE25C8602D00CA1911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3E99BD25C8602D00CA1911 /* Main.storyboard */; };
 		FA62A6E025C80FB6002B6B02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA62A6DF25C80FB6002B6B02 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -34,6 +38,10 @@
 		0FF30F32F89243C2BE478EE6 /* Pods-Knock-Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knock-Talk.debug.xcconfig"; path = "Target Support Files/Pods-Knock-Talk/Pods-Knock-Talk.debug.xcconfig"; sourceTree = "<group>"; };
 		B397470AF1BFA7299DF099E2 /* Pods_Knock_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knock_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBB2157158CD2DC83E6E52 /* Pods-Knock-Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knock-Talk.release.xcconfig"; path = "Target Support Files/Pods-Knock-Talk/Pods-Knock-Talk.release.xcconfig"; sourceTree = "<group>"; };
+		FA334EE225CAD072004E0A7B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA334EE625CAE09C004E0A7B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Knock-Talk/Message.swift"; sourceTree = SOURCE_ROOT; };
+		FA334EE925CAF5C9004E0A7B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		FA334EEA25CAF5C9004E0A7B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		FA3E99BD25C8602D00CA1911 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FA62A6DF25C80FB6002B6B02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +96,7 @@
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
 				FA62A6DF25C80FB6002B6B02 /* GoogleService-Info.plist */,
+				FA334EE225CAD072004E0A7B /* Constants.swift */,
 			);
 			path = "Knock-Talk";
 			sourceTree = "<group>";
@@ -107,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				FA3E99BD25C8602D00CA1911 /* Main.storyboard */,
+				FA334EE925CAF5C9004E0A7B /* MessageCell.swift */,
+				FA334EEA25CAF5C9004E0A7B /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +125,7 @@
 		0B628194235DF03A00E35CAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA334EE625CAE09C004E0A7B /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA334EEC25CAF5C9004E0A7B /* MessageCell.xib in Resources */,
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				FA62A6E025C80FB6002B6B02 /* GoogleService-Info.plist in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
@@ -248,7 +261,10 @@
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
+				FA334EE725CAE09C004E0A7B /* Message.swift in Sources */,
+				FA334EE325CAD072004E0A7B /* Constants.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				FA334EEB25CAF5C9004E0A7B /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
